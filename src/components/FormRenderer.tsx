@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormSchema } from '../types';
 import { useForm, SubmitHandler } from 'react-hook-form';
 
 const FormRenderer: React.FC<{ schema: FormSchema }> = ({ schema }) => {

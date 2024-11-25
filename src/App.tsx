@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import JsonEditor from './components/JsonEditor';
 import FormRenderer from './components/FormRenderer';
+import { FormSchema } from '../src/types';
+import { initialSchema } from './schema';
 
 const App: React.FC = () => {
   const [json, setJson] = useState(JSON.stringify(initialSchema, null, 2));

@@ -17,7 +17,7 @@ const JsonEditor: React.FC<JsonEditorProps> = ({ value, onChange, error }) => {
         placeholder={JSON.parse(value)}
         height="400px"
         width="100%"
-        onChange={(data) => {
+        onChange={(data:any) => {
           if (!data.error) onChange(JSON.stringify(data.jsObject, null, 2));
         }}
       />
