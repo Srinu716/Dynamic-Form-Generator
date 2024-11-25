@@ -12,6 +12,17 @@
   }
 }
 
+body {
+  @apply bg-gray-50 font-sans text-gray-800;
+}
+
+.fade-in {
+  @apply opacity-0 transition-opacity duration-500 ease-in-out;
+}
+
+.fade-in.visible {
+  @apply opacity-100;
+}
 
 body {
   margin: 0;
