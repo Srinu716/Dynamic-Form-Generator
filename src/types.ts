@@ -1,4 +1,4 @@
-// src/types.ts
+
 export interface FieldSchema {
     id: string;
     type: 'text' | 'email' | 'textarea' | 'select' | 'radio';
